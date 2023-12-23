@@ -57,8 +57,21 @@ export function PrincipalSearcher() {
           paddingBottom: "80px",
           backgroundColor: "#0B2C4D",
           color: "white",
+          position: "relative",
         }}
       >
+        <Box
+        sx={{
+          display: "block",
+          position: "absolute",
+          width: "100%",
+          height: "100%",
+          backgroundColor: "#a2a2b9d6",
+          zIndex: "99",
+          top: 0
+        }}
+        onClick={(e) => e.preventDefault()}
+      ></Box>
         <Typography variant="h4" sx={{ marginBottom: 6 }}>
           Comienza tu búsqueda
         </Typography>

@@ -50,6 +50,7 @@
     "sass": "^1.63.4",
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.4",
+    "serve": "^14.2.1",
     "shortid": "^2.2.16",
     "web-vitals": "^2.1.4",
     "yup": "^0.32.11"

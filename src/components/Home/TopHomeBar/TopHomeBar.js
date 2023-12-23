@@ -5,7 +5,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Toolbar from "@mui/material/Toolbar";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "../../../theme/theme";
-import { LoginButton, SignUpButton } from "../../Button";
+import { LoginButton, SignUpButton, ContactButton } from "../../Button";
 import { LogoAvatar } from "../../Avatars";
 import { Card, CardActionArea, CardMedia } from "@mui/material";
 import { Link } from "react-router-dom";
@@ -33,8 +33,9 @@ export function TopHomeBar() {
                 marginLeft: "auto",
               }}
             >
-              <LoginButton />
-              <SignUpButton />
+              {/* <LoginButton />
+              <SignUpButton /> */}
+              <ContactButton />
             </Box>
           </Toolbar>
         </AppBar>

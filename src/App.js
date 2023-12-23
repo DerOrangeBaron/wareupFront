@@ -12,7 +12,7 @@ export default function App() {
       window.dataLayer.push(arguments);
     }
     gtag("js", new Date());
-    gtag("config", "G-6VSKW5M7PF");
+    gtag("config", "G-50BP413HB0");
   }, []);
 
   return (
