@@ -15,7 +15,7 @@ export function Home() {
 
   return (
     <Fragment>
-      <PrincipalSearcher />
+      {/* <PrincipalSearcher /> */}
       <Slogan />
       <HowItWorks />
       <ValueProposal />
