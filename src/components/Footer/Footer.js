@@ -3,7 +3,7 @@ import { Copyright } from "../Copyright";
 import { Container, Grid, Link, Typography } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "../../theme/theme";
-import { LinkedinLogo } from "../SocialMedia";
+import { LinkedinLogo, FacebookLogo, InstagramLogo } from "../SocialMedia";
 import { LogoAvatar } from "../Avatars/LogoAvatar";
 import { LinkSpacer } from "../Links";
 import logo from "../../assets/official-images/logo.png";
@@ -38,9 +38,9 @@ export function Footer() {
                   <Link href="/">Home</Link>
                 </Typography>
                 <LinkSpacer />
-                <Typography variant="link">
+                {/* <Typography variant="link">
                   <Link href="#">Quienes somos</Link>
-                </Typography>
+                </Typography> */}
               </Grid>
               <Grid item md={3}>
                 <Typography variant="h6" gutterBottom>
@@ -50,14 +50,16 @@ export function Footer() {
                   <Link href="/contacts">Contáctanos</Link>
                 </Typography>
                 <LinkSpacer />
-                <Typography variant="link">
+                {/* <Typography variant="link">
                   <Link href="#">Términos y condiciones</Link>
-                </Typography>
+                </Typography> */}
               </Grid>
               <Grid item md={3}>
                 <Typography variant="h6" gutterBottom>
                   Social Media
                 </Typography>
+                <FacebookLogo  />
+                <InstagramLogo />
                 <LinkedinLogo />
               </Grid>
             </Grid>
