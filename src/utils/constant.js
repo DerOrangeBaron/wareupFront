@@ -6,8 +6,8 @@ export const containedLayoutWidth = 1200;
 
 const SERVER_IP = "18.218.25.36:3001";
 export const ENV = {
-  BASE_PATH: `http://${SERVER_IP}`,
-  BASE_API: `http://${SERVER_IP}/api/v1`,
+  BASE_PATH: `https://${SERVER_IP}`,
+  BASE_API: `https://${SERVER_IP}/api/v1`,
   API_ROUTES: {
     LOGIN: "auth/login",
     REFRESH_ACCESS_TOKEN: "auth/refresh_access_token",
