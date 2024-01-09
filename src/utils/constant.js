@@ -4,7 +4,7 @@ export const navbarHeight = 60;
 export const sidenavCompactWidth = 80;
 export const containedLayoutWidth = 1200;
 
-const SERVER_IP = "18.218.25.36:3001";
+const SERVER_IP = "prod-rest.wareup.com.uy";
 export const ENV = {
   BASE_PATH: `https://${SERVER_IP}`,
   BASE_API: `https://${SERVER_IP}/api/v1`,
