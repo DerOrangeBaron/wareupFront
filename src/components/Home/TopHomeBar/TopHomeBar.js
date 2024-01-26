@@ -33,9 +33,9 @@ export function TopHomeBar() {
                 marginLeft: "auto",
               }}
             >
-              {/* <LoginButton />
-              <SignUpButton /> */}
-              <ContactButton />
+              <LoginButton />
+              <SignUpButton />
+              {/* <ContactButton /> */}
             </Box>
           </Toolbar>
         </AppBar>
